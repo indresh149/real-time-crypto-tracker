@@ -1,0 +1,55 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-text-primary font-sans;
+}
+
+/* Custom scrollbar for better dark theme integration */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #2a2a2a; /* card background */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #525252; /* neutral-600 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #737373; /* neutral-500 */
+}
+
+/* Add Keyframes for background flash */
+@keyframes flash-positive-bg {
+  0% { background-color: rgba(22, 163, 74, 0); } /* Start transparent green */
+  50% { background-color: rgba(22, 163, 74, 0.2); } /* Peak green */
+  100% { background-color: rgba(22, 163, 74, 0); } /* End transparent green */
+}
+
+@keyframes flash-negative-bg {
+  0% { background-color: rgba(220, 38, 38, 0); } /* Start transparent red */
+  50% { background-color: rgba(220, 38, 38, 0.2); } /* Peak red */
+  100% { background-color: rgba(220, 38, 38, 0); } /* End transparent red */
+}
+
+/* Add Classes to apply the animation */
+.flash-positive {
+  animation: flash-positive-bg 0.6s ease-out forwards;
+}
+
+.flash-negative {
+  animation: flash-negative-bg 0.6s ease-out forwards;
+}
+
+/* Ensure table row background allows flash visibility */
+
+tbody tr:hover {
+     background-color: #2a2a2a; /* Existing hover color (card) */
+}
