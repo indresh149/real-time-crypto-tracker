@@ -2,7 +2,7 @@
 
 This application demonstrates a real-time cryptocurrency price tracking table, similar to CoinMarketCap, built with modern frontend technologies. It simulates WebSocket updates for price changes and manages all application state using Redux Toolkit.
 
-[![Sample Output](<>)]([https://drive.google.com/drive/u/0/folders/12J2Lr-gQl0-2LXWmHrElz88OSVBaDiFe](https://drive.google.com/file/d/1PZjA6IKHid0Z9Q5SgFWWfC3sv_sA5biN/view?usp=drive_link))
+Demo Video link : https://drive.google.com/file/d/1PZjA6IKHid0Z9Q5SgFWWfC3sv_sA5biN/view?usp=sharing
 
 
 ## Features
@@ -83,7 +83,7 @@ This application demonstrates a real-time cryptocurrency price tracking table, s
 
 *(Embed a GIF or provide a link to a short video walkthrough here)*
 
-[* [Link to Demo Video/GIF]]([https://drive.google.com/drive/u/0/folders/12J2Lr-gQl0-2LXWmHrElz88OSVBaDiFe](https://drive.google.com/file/d/1PZjA6IKHid0Z9Q5SgFWWfC3sv_sA5biN/view?usp=drive_link))
+Demo Video Link : https://drive.google.com/file/d/1PZjA6IKHid0Z9Q5SgFWWfC3sv_sA5biN/view?usp=sharing
 
 ## Potential Improvements (Bonus)
 
