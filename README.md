@@ -1,5 +1,7 @@
 # Real-Time Crypto Price Tracker (React + Redux Toolkit + TypeScript)
 
+Project Live Link : https://real-time-crypto-tracker-eta.vercel.app/
+
 This application demonstrates a real-time cryptocurrency price tracking table, similar to CoinMarketCap, built with modern frontend technologies. It simulates WebSocket updates for price changes and manages all application state using Redux Toolkit.
 
 Demo Video link : https://drive.google.com/file/d/1PZjA6IKHid0Z9Q5SgFWWfC3sv_sA5biN/view?usp=sharing
